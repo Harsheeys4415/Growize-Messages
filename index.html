@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>GrowizeMessages — Every message, handled.</title>
+  <meta name="description" content="GrowizeMessages is the management dashboard for your Instagram DM automation system. Configure rules, review conversations, monitor health. Every message, handled." />
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F6F7F3" />
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#131610" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png" />
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="GrowizeMessages" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="mobile-web-app-capable" content="yes" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="https://unpkg.com/lucide@0.474.0/dist/umd/lucide.min.js" crossorigin="anonymous"></script>
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <div class="shell" id="shell">
+    <aside class="sidebar" id="sidebar" aria-label="Primary navigation"></aside>
+
+    <div class="app-body">
+      <header class="topbar" id="topbar"></header>
+      <main class="main" id="main" tabindex="-1"></main>
+    </div>
+  </div>
+
+  <div class="banner-root" id="banner-root"></div>
+  <div class="demo-root" id="demo-root"></div>
+  <div class="modal-root" id="modal-root"></div>
+  <div class="toast-root" id="toast-root" aria-live="polite" aria-atomic="false"></div>
+
+  <noscript>
+    <div style="padding:2rem;font-family:sans-serif;text-align:center">
+      <h1>GrowizeMessages</h1>
+      <p>Every message, handled.</p>
+      <p>GrowizeMessages requires JavaScript. Please enable JavaScript and reload this page.</p>
+    </div>
+  </noscript>
+</body>
+</html>

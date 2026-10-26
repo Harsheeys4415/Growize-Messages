@@ -1,0 +1,14 @@
+{
+  "name": "growizemessages",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "GrowizeMessages — Instagram DM automation manager (management dashboard). Every message, handled.",
+  "scripts": {
+    "start": "python3 -m http.server 4173",
+    "start:node": "npx --yes serve -l 4173 ."
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
